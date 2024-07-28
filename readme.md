@@ -17,7 +17,7 @@ Enagle gpl or you become "libx264 is gpl and --enable-gpl is not specified."
 Install libx264 dev or you become "ERROR: x264 not found using pkg-config"
 
 
-Convert images to mp4
+### Part 2 - Convert images to mp4
 
 ```
 ./ffmpeg -r 1/2 -start_number 0 -i ./images/%02d.jpg -c:v libx264 -r 30 -pix_fmt yuv420p out.mp4
