@@ -31,6 +31,7 @@ There is created the scheduler
 
 To end of main() before the scheduler will be deleted need to add and print function that will show parameters of shed
 ```
+// add this to main() in fftools/ffmpeg.c
 print_shed(sch)
 ```
 
@@ -38,13 +39,15 @@ The scheduler is in file fftools/ffmpeg_sched.c
 Where we need to add this print 
 
 ```
+
+// add this function to fftools/ffmpeg_sched.c before struct Scheduler {
 void print_shed(Scheduler *sch)
 {
 
 	printf("\nprint from shed.c\n");
 	printf("\n first param %d \n",sch->sdp_auto);
 	printf("\n second param %s \n",sch..sdp_filename);
-	
+	// make all code here
 	
 }
 
