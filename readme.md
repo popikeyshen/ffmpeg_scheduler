@@ -13,6 +13,7 @@ make
 ```
 
 Enagle gpl or you become "libx264 is gpl and --enable-gpl is not specified."
+
 Install libx264 dev or you become "ERROR: x264 not found using pkg-config"
 
 
