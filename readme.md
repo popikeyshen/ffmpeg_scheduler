@@ -1,4 +1,4 @@
-##Make mp4 video with FFmpeg and trace functions
+## Make mp4 video with FFmpeg and trace functions
 
 
 ### Part 1 - compile ffmpeg with 
